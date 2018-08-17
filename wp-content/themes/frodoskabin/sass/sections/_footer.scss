@@ -1,0 +1,42 @@
+footer{
+    background-color: $black;
+    padding: 40px 0;
+
+    color: $white;
+    a{
+        color: $white;
+
+        &:hover{
+            color: $white;
+        }
+
+        &.smiley-link{
+            width: 60px!important;
+            max-width: 60px!important;
+
+            img{
+                max-width: 60px;
+            }
+        }
+    }
+
+}
+
+.social-links{
+    height: 50px;
+    background-color: $black;
+
+    ul{
+        float: right;
+
+        li{
+            display: inline-block;
+            a{
+                padding: 10px 0 10px 10px;
+                color: $white;
+            }
+
+        }
+    }
+
+}

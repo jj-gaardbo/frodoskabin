@@ -1,0 +1,46 @@
+body {
+    /*background: url(../img/bgimg.png);*/
+    background-color: $black;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-template-template-frontpage{
+
+    .fp-logo-sec{
+        padding-top: 120px;
+        text-align: center;
+
+        img{
+            width: 30%;
+        }
+
+        ul{
+            li{
+                a{
+                    color: $white;
+                }
+                width: 130px;
+                box-sizing: border-box;
+                border-bottom: 2px solid $themeBlue;
+                padding: 10px;
+                margin: 30px;
+                display: inline-block;
+
+                &:last-child{
+                    border-bottom-color: $themeRed;
+                }
+            }
+        }
+    }
+}
+
+section.contact-section{
+    padding: 40px 0;
+}
+
+.no-padding{
+    padding: 0;
+}

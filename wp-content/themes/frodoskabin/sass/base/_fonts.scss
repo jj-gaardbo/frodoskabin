@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'HindSiliguryBold';
+    src: url('../fonts/hindsiliguri-bold-webfont.woff2') format('woff2'),
+    url('../fonts/hindsiliguri-bold-webfont.woff') format('woff'),
+    url('../fonts/HindSiliguri-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'HindSiliguryLight';
+    src: url('../fonts/hindsiliguri-light-webfont.woff2') format('woff2'),
+    url('../fonts/hindsiliguri-light-webfont.woff') format('woff'),
+    url('../fonts/HindSiliguri-Light.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'HindSiliguryMedium';
+    src: url('../fonts/hindsiliguri-medium-webfont.woff2') format('woff2'),
+    url('../fonts/hindsiliguri-medium-webfont.woff') format('woff'),
+    url('../fonts/HindSiliguri-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'HindSiliguryRegular';
+    src: url('../fonts/hindsiliguri-regular-webfont.woff2') format('woff2'),
+    url('../fonts/hindsiliguri-regular-webfont.woff') format('woff'),
+    url('../fonts/HindSiliguri-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'HindSiligurySemiBold';
+    src: url('../fonts/hindsiliguri-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/hindsiliguri-semibold-webfont.woff') format('woff'),
+    url('../fonts/HindSiliguri-SemiBold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'SortsMillGoudyItalic';
+    src: url('../fonts/sortsmillgoudy-italic-webfont.woff2') format('woff2'),
+    url('../fonts/sortsmillgoudy-italic-webfont.woff') format('woff'),
+    url('../fonts/SortsMillGoudy-Italic.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'SortsMillGoudyRegular';
+    src: url('../fonts/sortsmillgoudy-regular-webfont.woff2') format('woff2'),
+    url('../fonts/sortsmillgoudy-regular-webfont.woff') format('woff'),
+    url('../fonts/SortsMillGoudy-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$textFont: 'HindSiliguryRegular', helvetica, sans-serif;
+$boldFont: 'HindSiliguryBold', helvetica, sans-serif;
+$navFont: 'HindSiliguryLight', helvetica, sans-serif;
+$headingFont: 'SortsMillGoudyItalic', times, serif;
+
+body .navigation{
+    font:300 16px/1.4 $navFont;
+    color:#444;
+}
+
+body{
+    font:300 18px/1.4 $textFont;
+    color:#444;
+}
+
+strong{
+    font-family: $boldFont;
+    font-weight: normal;
+}
+
+p{
+    margin-bottom: 10px;
+}

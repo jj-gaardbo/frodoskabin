@@ -1,0 +1,37 @@
+.contact-form-class{
+
+    input, label{
+        width: 100%;
+    }
+
+    label{
+        color: $themeGrey;
+    }
+
+    .btn.btn-primary{
+        display: block;
+        width: auto;
+        float: right;
+        border-radius: 0px;
+        border: 0px;
+        background-color: $themeBlue;
+
+        &:hover{
+            background-color: $themeBabyBlue;
+        }
+    }
+
+    span.wpcf7-not-valid-tip{
+        font-size: 0.7em;
+    }
+
+}
+
+.wpcf7-response-output{
+    border: 3px solid $themeBlue!important;
+    margin: 2em 0 1.5em 0!important;
+
+    &.wpcf7-validation-errors{
+        border: 3px solid red!important;
+    }
+}
